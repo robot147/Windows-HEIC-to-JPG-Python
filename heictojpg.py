@@ -7,5 +7,5 @@ directory = "D:\test\heic"
 
 for filename in os.listdir(directory):
     if filename.lower().endswith(".heic"):
-        print('Converting %s' % os.path.join(directory, filename))
-        subprocess.run(["magick", "%s" % os.path.join(directory, filename), "%s" % os.path.join(directory, filename[0:-5] + '.jpg')])
+        print('Converting ' + os.path.join(directory, filename))
+        subprocess.run(["magick", os.path.join(directory, filename), os.path.join(directory, filename[0:-5] + '.jpg')])
