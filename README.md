@@ -7,12 +7,18 @@ ex) "D:\test\heic"
 
 스크립트가 작동하려면 ImageMagick이 설치되어 있어야 합니다.: https://imagemagick.org/script/download.php#windows
 
+참고 사이트:
+https://jeeu147.tistory.com/85
+
 HEIC to JPG file format batch conversion script
 
 To run this script, check the directory (location) of the folder containing the HEIC image you want to convert and enter it into the directory function.
 ex) "D:\test\heic"
 
 You will need to have ImageMagick installed for the script to work: https://imagemagick.org/script/download.php#windows
+
+reference site:
+https://jeeu147.tistory.com/85
 
 ImageMagick Site
 https://www.imagemagick.org/
